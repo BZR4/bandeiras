@@ -134,7 +134,7 @@ Agora você irá trazer uma cópia do código do repositótio remoto para seu no
 1. Acesse outro diretório em seu computador, para simular um novo ambiente; por exemplo, se voce criou o projeto `bandeiras` no Desktop, acesse o diretório `Meus Documentos` para poder criar uma cópia do projeto no repositorio remoto.
 2. Lembre-se, dentro do diretório `Meus Documentos`, clique com o botão direito do mouse e escolha `Git Bash Here` para acessar o terminal.
 3. Acesse seu repositório remoto e copie o link.
-![](images/repo.png)
+![](imagens/repo.png)
 4. Digite o código abaixo; aterando conforme o identificador de seu usuario no GitHub e nome do projeto.
 ```shell
 git clone https://github.com/SEU_USUARIO/bandeiras.git
