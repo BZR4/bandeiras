@@ -102,10 +102,17 @@ Vá ao `GitHub` e verifique seus arquivos na nuvem, prontos para serem evoluído
 Crie algumas bandeiras para praticar o uso do `Git/GitHub`, para tal crie os arquivos abaixo:
 
 1. Crie o arquivo `index.html`;
-2. Crie uma nova bandeira de sua preferência, mas você pode criar quantas bandeidas quiser;
-3. Crie um link no `index` para acessar as 2 bandeiras;
-4. Crie uma nova versão de seu site com um novo **COMMIT** e um novo **PUSH** com os comandos abaixo:
+2. Crie a pasta `css`;
+3. Crie o arquivo `estilo.css`, dentro da pasta `css`;
+4. Mova o código CSS do arquivo `alemanha.html` para o arquivo `estilo.css`;
+5. Associe o CSS nas páginas [`index.html`, `alemanha.html`] com a tag `link`;
+6. Crie uma nova bandeira de sua preferência e associe ao arquivo `estilo.css`; mas você pode criar quantas bandeidas quiser;
+7. Crie um link no `index` para acessar as 2 bandeiras;
+8. Crie uma nova versão de seu site com um novo **COMMIT** e um novo **PUSH** com os comandos abaixo:
 ```shell
+git status
+git diff
+git log
 git add .
 git commit -m "Segunda Versão - Bandeira [PAÍS]"
 git push
