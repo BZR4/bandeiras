@@ -4,7 +4,7 @@
 
 ### Criar Repositório Remoto
 O repositório remoto é local onde a cópia oficial de nossos projetos deverão permanecer para fins de controle, distribuição e trabalho colaborativo entre os desenvolvedores. O repositório remoto armazena todas as versões de nosso projeto. Nos próximos passos você criará um simples porém funcional `repositório remoto`.
-1. Faça login na sua conta do GitHub.
+1. Faça login na sua conta do [GitHub](https://github.com/).
 2. Crie um novo projeto.
 ![](imagens/img01.png)
 3. Informe o nome do seu projeto; não selecione a opção de inicializar o README e a opção do `.gitignore` conforme a imagem abaixo.
