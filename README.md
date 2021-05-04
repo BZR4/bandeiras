@@ -38,7 +38,7 @@ O repositório local é onde mantemos uma cópia de nosso repositório remoto e 
         }
 
         body{
-            height: 1080px;
+            height: 500px;
         }
         .preto{
             background-color: black;
@@ -99,72 +99,17 @@ git push -u origin master
 Vá ao `GitHub` e verifique seus arquivos na nuvem, prontos para serem evoluídos!
 
 # Tarefa
-Crie a bandeira do Chile, para tal crie uma nova versão de seu site com um novo **COMMIT** e um novo **PUSH**.
+Crie algumas bandeiras para praticar o uso do `Git/GitHub`, para tal crie os arquivos abaixo:
 
-Aqui está o código da bandeira do Chile.
-```html
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Chile</title>
-    <style>
-        * {
-            margin: 0 auto;
-        }
-
-        body {
-            height: 480px;
-            width: 800px;
-        }
-
-        .azul {
-            background-color: blue;
-            height: 50%;
-            width: 33.33%;
-            position: relative;
-            float: left;
-        }
-
-        .branco {
-            background-color: white;
-            height: 50%;
-            width: 66.66%;
-            float: right;
-
-        }
-
-        .vermelho {
-            background-color: red;
-            height: 50%;
-            clear: right;
-        }
-
-        img {
-            position: absolute;
-            height: 33.33%;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-    </style>
-</head>
-
-<body>
-
-    <section class="azul">
-        <img src="imagens/star.png" alt="Estrela do Chile">
-    </section>
-    <section class="branco"></section>
-    <section class="vermelho"></section>
-</body>
-
-</html>
+1. Crie o arquivo `index.html`;
+2. Crie uma nova bandeira de sua preferência, mas você pode criar quantas bandeidas quiser;
+3. Crie um link no `index` para acessar as 2 bandeiras;
+4. Crie uma nova versão de seu site com um novo **COMMIT** e um novo **PUSH** com os comandos abaixo:
+```shell
+git add .
+git commit -m "Segunda Versão - Bandeira [PAÍS]"
+git push
 ```
-Deixei para você encontrar a estrela para ela na internet!
-Se você já fez esta atividade com as bandeiras, voce pode adicionar novos **COMMITS** ao projeto também.
+Se você já fez esta atividade com as bandeiras na aula de `Programação para Web I`, voce pode adicionar novos **COMMITS** ao projeto também com as bandiras já criadas na disciplina.
 
 Boa sorte!
