@@ -79,7 +79,13 @@ Agora podemos dizer que temos a primeira versão do nosso projeto `bandeiras`; s
 ![](imagens/img10.png)
 14. Agora que o arquivo `alemanha.html` está adicionado ao `stage`, poder criar nossa primeira versão. Execute o comando `git commit -m "Primeiro Commit - Bandeira da Alemanha"` e logo em seguida o comando `git status`.
 ![](imagens/img11.png)
-15. Nossa primeira verão foi criada, execute o comando `git log` para validar conforme a imagem abaixo.
+15. Configuração de email para envio ao GitHub através do terminal; neste ponto você precisa informar suas credenciais para realizar autenticação no GitHub; configure se email e o nome de apresentação com o trecho abaixo:
+```shell
+git config --global user.email "email_cadastrado_no_github"
+git config --global user.name "nome_exibido_nos_commits"
+```
+16. Autentique-se no GitHub informando sua senha.
+17. Nossa primeira verão foi criada, execute o comando `git log` para validar conforme a imagem abaixo.
 ![](imagens/img12.png)
 
 ## Terceiro Passo
