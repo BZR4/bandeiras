@@ -119,4 +119,32 @@ git push
 ```
 Se você já fez esta atividade com as bandeiras na aula de `Programação para Web I`, voce pode adicionar novos **COMMITS** ao projeto também com as bandiras já criadas na disciplina.
 
-Boa sorte!
+## Parte II
+
+### Imagine o seguinte cenário
+
+Você teve problemas com o seu computador e precisa finalizar a tarefa criando mais algumas bandeiras, porém não tem acesso ao seu computador. 
+
+O prazo de entrega da tarefa está terimando e você precisou continuar a tarefa em um novo computador e após configurar o ambiente de desenvolvimento, checgou a hora de retomar o projeto; ou seja, chegou a hora de clonar o projeto no seu repositório local.
+
+#### Retomando a tarefa
+
+Agora você irá trazer uma cópia do código do repositótio remoto para seu novo computador e dar continuidade na tarefa.
+
+1. Acesse outro diretório em seu computador, para simular um novo ambiente; por exemplo, se voce criou o projeto `bandeiras` no Desktop, acesse o diretório `Meus Documentos` para poder criar uma cópia do projeto no repositorio remoto.
+2. Lembre-se, dentro do diretório `Meus Documentos`, clique com o botão direito do mouse e escolha `Git Bash Here` para acessar o terminal.
+3. Acesse seu repositório remoto e copie o link.
+![](images/repo.png)
+4. Digite o código abaixo; aterando conforme o identificador de seu usuario no GitHub e nome do projeto.
+```shell
+git clone https://github.com/SEU_USUARIO/bandeiras.git
+```
+5. Abra o projeto com o `VSCode`ou o sua IDE favorita.
+
+#### Finalizando a tarefa
+
+Crie mais um bandeira e realize o push para o `repositório remoto`.
+
+# SUCESSO
+
+
